@@ -1,4 +1,4 @@
-# Previsão de Eventos no Futebol com Modelos de Linguagem de Grande Escala: Aplicação de Fine-Tuning em Sequências de Jogo
+# Previsão de Eventos no Futebol com LLMs: Aplicação de Fine-Tuning em Sequências de Jogo
 
 Este repositório contém o código e materiais utilizados em um projeto de pesquisa que faz parte do [**MBA em Ciência de Dados do ICMC/USP**](https://cemeai.icmc.usp.br/MBA/) 
 
