@@ -39,12 +39,16 @@ O trabalho envolve:
 
 ## Datasets, Tokenizers e Modelos Fine-Tuning no Hugging Face
 
-A pesquisa gerou diversos **datasets** de sequências de eventos e **tokenizers** específicos, bem como **checkpoints de modelos LLM** finetunados. A seguir, listamos os principais repositórios disponíveis no Hugging Face:
+A pesquisa gerou diversos **datasets** de sequências de eventos e **tokenizers** específicos, bem como **checkpoints de modelos LLM** fine-tuninh.
+
+Todos os datasets, tokenizers e modelos estão disponíveis na conda do hugging face: [huggingface.co/murloms](https://huggingface.co/muriloms)
+
+A seguir, listamos os principais repositórios disponíveis no Hugging Face:
 
 ### Datasets
 
 - **Sequências de 3 lances (5.000 sequências)**  
-  - [`muriloms/football-events-statsbomb360-la-liga-3-5k`](https://huggingface.co/muriloms/football-events-statsbomb360-la-liga-3-5k)
+  - [`muriloms/football-events-statsbomb360-la-liga-3-5k`](https://huggingface.co/datasets/muriloms/football-events-statsbomb360-la-liga-3-5k)
 
 - **(Exemplo de ampliação)**: Para cada variação (3, 5, 10, 40 eventos de histórico) e (5.000, 10.000, 50.000 sequências), foram criados datasets correspondentes:
   - `muriloms/football-events-statsbomb360-la-liga-3-10k`
@@ -73,7 +77,7 @@ A pesquisa gerou diversos **datasets** de sequências de eventos e **tokenizers*
 
 ### Modelos Fine-Tuning
 
-- **GPT-2 finetunado (3 lances e 5.000 sequências)**  
+- **GPT-2 finetunado (3 lances e 5.000 sequências, 100 epochs)**  
   - [`muriloms/tcc-football-events-finetune-gpt2-3-5k-100`](https://huggingface.co/muriloms/tcc-football-events-finetune-gpt2-3-5k-100)
 
 - **(Exemplo para outras configurações)**:
@@ -94,9 +98,3 @@ A pesquisa gerou diversos **datasets** de sequências de eventos e **tokenizers*
 Esses modelos foram escolhidos por oferecerem diferentes tamanhos (quantidade de parâmetros) e arquiteturas, possibilitando comparar desempenho, custo computacional e viabilidade de uso em cenários de previsão de eventos esportivos.
 
 ---
-
-## Como Utilizar
-
-1. **Clone este repositório**:
-   ```bash
-   git clone https://github.com/SEU_USUARIO/NOME_DO_REPOSITORIO.git
