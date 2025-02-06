@@ -10,7 +10,7 @@ O objetivo é investigar a aplicação de **Modelos de Linguagem de Grande Escal
 
 O projeto explora a etapa de **fine-tuning** de modelos como GPT-2, DistilGPT-2, GPT-Neo-125M e OPT-125M, com foco na **previsão de ações futuras** a partir de sequências de eventos em jogos de futebol.
 
-Banco de dados: StatsBomb 360](https://statsbomb.com/what-we-do/soccer-data/360-2/).
+Banco de dados: [StatsBomb 360](https://statsbomb.com/what-we-do/soccer-data/360-2/).
 
 O trabalho envolve:
 
