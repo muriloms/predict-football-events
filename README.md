@@ -57,12 +57,7 @@ A seguir, listamos os principais repositórios disponíveis no Hugging Face:
   - `muriloms/football-events-statsbomb360-la-liga-5-10k`
   - `muriloms/football-events-statsbomb360-la-liga-5-50k`
   - `muriloms/football-events-statsbomb360-la-liga-10-5k`
-  - `muriloms/football-events-statsbomb360-la-liga-10-10k`
-  - `muriloms/football-events-statsbomb360-la-liga-10-50k`
-  - `muriloms/football-events-statsbomb360-la-liga-40-5k`
-  - `muriloms/football-events-statsbomb360-la-liga-40-10k`
-  - `muriloms/football-events-statsbomb360-la-liga-40-50k`
-  - *(Lista ilustrativa, acrescente ou remova de acordo com suas variações)*
+  - ...
 
 ### Tokenizers
 
